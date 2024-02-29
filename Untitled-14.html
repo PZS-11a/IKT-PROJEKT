@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C# Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="container">
+      <div id="sidebar">
+        <h2>C# oktatóanyag</h2>
+        <ul>
+          <li><a href="Untitled-1.html">C# HOME</a></li>
+          <li><a href="Untitled-2.html">C# Intro</a></li>
+          <li><a href="Untitled-3.html">C# Kezdje el</a></li>
+          <li><a href="Untitled-4.html">C# szintaxis</a></li>
+          <li><a href="Untitled-5.html">C# kimenet</a></li>
+          <li><a href="Untitled-6.html">C# megjegyzések</a></li>
+          <li><a href="Untitled-7.html">C# változók</a></li>
+          <li><a href="Untitled-8.html">C# adattípusok</a></li>
+          <li><a href="Untitled-9.html">C# típusú öntés</a></li>
+          <li><a href="Untitled-10.html">C# felhasználói bevitel</a></li>
+          <li><a href="Untitled-11.html">C# operátorok</a></li>
+          <li><a href="Untitled-12.html">C# matematika</a></li>
+          <li><a href="Untitled-13.html">C# karakterláncok</a></li>
+          <li><a href="Untitled-14.html">C# Booleans</a></li>
+          <li><a href="Untitled-15.html">C# Ha...Egyébként</a></li>
+          <li><a href="Untitled-16.html">C# kapcsoló</a></li>
+          <li><a href="Untitled-17.html">C# While Loop</a></li>
+          <li><a href="Untitled-18.html">C# For Loop</a></li>
+          <li><a href="Untitled-19.html">C# Szünet/Folytatás</a></li>
+          <li><a href="Untitled-20.html">C# tömbök</a></li>
+          <li><a href="Untitled-21.html">C# módszerek</a></li>
+          <li><a href="Untitled-22.html">C# módszerek</a></li>
+          <li><a href="Untitled-23.html">C# módszer paraméterei</a></li>
+          <li><a href="Untitled-24.html">C# módszer túlterhelés</a></li>
+          <li><a href="Untitled-25.html">C# osztályok</a></li>
+          <li><a href="Untitled-26.html">C# OOP</a></li>
+          <li><a href="Untitled-27.html">C# osztályok/objektumok</a></li>
+          <li><a href="Untitled-28.html">C# osztály tagjai</a></li>
+          <li><a href="Untitled-100.html">Feladatok</a></li>
+          <li><a href="anyag.html">Videó sorozat</a></li>
+        </ul>
+      </div>
+
+      <div id="content">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <h1>C# Booleans</h1>
+        <h2>C# Booleans</h2>
+        <p>
+          A programozás során nagyon gyakran olyan adattípusra lesz szüksége, amelynek csak az egyike lehet két érték közül, például:<br /><br />
+
+          IGEN NEM<br />
+          BE KI<br />
+          IGAZ HAMIS<br />
+        </p>
+        <p>Ehhez a C#-nak van egy booladattípusa, amely a truevagy értékeket veheti fel false.</p>
+        <h2>Logikai értékek</h2>
+        <p>A logikai típust a kulcsszó deklarálja , és csak a vagy boolértékeket veheti fel :truefalse</p>
+        <h2>Példa</h2>
+        <p id="codeParagraph">
+          <code
+            >bool isCSharpFun = true;<br />
+            bool isFishTasty = false;<br />
+            Console.WriteLine(isCSharpFun); // Outputs True<br />
+            Console.WriteLine(isFishTasty); // Outputs False<br
+          /></code>
+        </p>
+        <button onclick="copyCode()">Kód Másolása</button>
+        <p>Azonban gyakoribb, hogy logikai értékeket adnak vissza logikai kifejezésekből feltételes teszteléshez (lásd alább).</p>
+        <h2>Logikai kifejezés</h2>
+        <p>
+          A logikai kifejezés logikai értéket ad vissza: Truevagy False, az értékek/változók összehasonlításával.<br /><br />
+
+          Ez hasznos a logika felépítéséhez és a válaszok megtalálásához.<br /><br />
+
+          Használhat például egy összehasonlító operátort , például a nagyobb, mint ( >) operátort, hogy megtudja, egy kifejezés (vagy változó) igaz-e:<br /><br />
+        </p>
+        <h2>Példa</h2>
+        <p id="codeParagraph">
+          <code
+            >int x = 10;<br />
+            int y = 9;<br />
+            Console.WriteLine(x > y); // returns True, because 10 is higher than 9<br
+          /></code>
+        </p>
+        <button onclick="copyCode()">Kód Másolása</button>
+        <p>Vagy még egyszerűbb:</p>
+        <h2>Példa</h2>
+        <p id="codeParagraph">
+          <code>Console.WriteLine(10 > 9); // returns True, because 10 is higher than 9</code>
+        </p>
+        <button onclick="copyCode()">Kód Másolása</button>
+      </div>
+    </div>
+  </body>
+</html>

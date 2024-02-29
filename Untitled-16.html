@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C# Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="container">
+      <div id="sidebar">
+        <h2>C# oktatóanyag</h2>
+        <ul>
+          <li><a href="Untitled-1.html">C# HOME</a></li>
+          <li><a href="Untitled-2.html">C# Intro</a></li>
+          <li><a href="Untitled-3.html">C# Kezdje el</a></li>
+          <li><a href="Untitled-4.html">C# szintaxis</a></li>
+          <li><a href="Untitled-5.html">C# kimenet</a></li>
+          <li><a href="Untitled-6.html">C# megjegyzések</a></li>
+          <li><a href="Untitled-7.html">C# változók</a></li>
+          <li><a href="Untitled-8.html">C# adattípusok</a></li>
+          <li><a href="Untitled-9.html">C# típusú öntés</a></li>
+          <li><a href="Untitled-10.html">C# felhasználói bevitel</a></li>
+          <li><a href="Untitled-11.html">C# operátorok</a></li>
+          <li><a href="Untitled-12.html">C# matematika</a></li>
+          <li><a href="Untitled-13.html">C# karakterláncok</a></li>
+          <li><a href="Untitled-14.html">C# Booleans</a></li>
+          <li><a href="Untitled-15.html">C# Ha...Egyébként</a></li>
+          <li><a href="Untitled-16.html">C# kapcsoló</a></li>
+          <li><a href="Untitled-17.html">C# While Loop</a></li>
+          <li><a href="Untitled-18.html">C# For Loop</a></li>
+          <li><a href="Untitled-19.html">C# Szünet/Folytatás</a></li>
+          <li><a href="Untitled-20.html">C# tömbök</a></li>
+          <li><a href="Untitled-21.html">C# módszerek</a></li>
+          <li><a href="Untitled-22.html">C# módszerek</a></li>
+          <li><a href="Untitled-23.html">C# módszer paraméterei</a></li>
+          <li><a href="Untitled-24.html">C# módszer túlterhelés</a></li>
+          <li><a href="Untitled-25.html">C# osztályok</a></li>
+          <li><a href="Untitled-26.html">C# OOP</a></li>
+          <li><a href="Untitled-27.html">C# osztályok/objektumok</a></li>
+          <li><a href="Untitled-28.html">C# osztály tagjai</a></li>
+          <li><a href="Untitled-29.html">C# konstruktorok</a></li>
+          <li><a href="Untitled-100.html">Feladatok</a></li>
+          <li><a href="anyag.html">Videó sorozat</a></li>
+        </ul>
+      </div>
+
+      <div id="content">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <h1>C# kapcsoló</h1>
+        <h2>C# Switch utasítások</h2>
+        <p>Az switchutasítás segítségével válasszon ki egyet a számos végrehajtandó kódblokk közül.</p>
+        <h2>Szintaxis</h2>
+        <p id="codeParagraph">
+          <code
+            >switch(expression) <br />
+            {<br />
+            case x:<br />
+            // code block<br />
+            break;<br />
+            case y:<br />
+            // code block<br />
+            break;<br />
+            default:<br />
+            // code block<br />
+            break;<br />
+            }</code
+          >
+        </p>
+        <button onclick="copyCode()">Kód Másolása</button>
+        <p>
+          Ez így működik:<br /><br />
+
+          A switchkifejezés egyszer kerül kiértékelésre<br />
+          A kifejezés értékét a rendszer összehasonlítja mindegyik értékévelcase<br />
+          Ha van egyezés, a kapcsolódó kódblokk végrehajtásra kerül<br />
+          A breakés defaultkulcsszavakat ebben a fejezetben később ismertetjük<br />
+        </p>
+        <p>Az alábbi példa a hét napjának számát használja a hétköznap nevének kiszámításához:</p>
+        <h2>Példa</h2>
+        <p id="codeParagraph">
+          <code
+            >int day = 4;<br />
+            switch (day)<br />
+            {<br />
+            case 1:<br />
+            Console.WriteLine("Monday");<br />
+            break;<br />
+            case 2:<br />
+            Console.WriteLine("Tuesday");<br />
+            break;<br />
+            case 3:<br />
+            Console.WriteLine("Wednesday");<br />
+            break;<br />
+            case 4:<br />
+            Console.WriteLine("Thursday");<br />
+            break;<br />
+            case 5:<br />
+            Console.WriteLine("Friday");<br />
+            break;<br />
+            case 6:<br />
+            Console.WriteLine("Saturday");<br />
+            break;<br />
+            case 7:<br />
+            Console.WriteLine("Sunday");<br />
+            break;<br />
+            }<br />
+            // Outputs "Thursday" (day 4)<br
+          /></code>
+        </p>
+        <button onclick="copyCode()">Kód Másolása</button>
+        <h1>A szünet kulcsszó</h1>
+        <p>
+          Amikor a C# elér egy break kulcsszót, kitör a kapcsolóblokkból.<br /><br />
+
+          Ez leállítja a további kódok és esetek tesztelését a blokkon belül.<br /><br />
+
+          Ha megtalálják a megfelelőt, és kész a munka, eljött a szünet ideje. Nincs szükség további tesztelésre.<br />
+        </p>
+        <h2>Az alapértelmezett kulcsszó</h2>
+        <p>A defaultkulcsszó nem kötelező, és megad egy kódot, amelyet le kell futtatni, ha nincs kis- és nagybetűs egyezés:</p>
+        <h2>Példa</h2>
+        <p id="codeParagraph">
+          <code
+            >int day = 4;<br />
+            switch (day) <br />
+            {<br />
+            case 6:<br />
+            Console.WriteLine("Today is Saturday.");<br />
+            break;<br />
+            case 7:<br />
+            Console.WriteLine("Today is Sunday.");<br />
+            break;<br />
+            default:<br />
+            Console.WriteLine("Looking forward to the Weekend.");<br />
+            break;<br />
+            }<br />
+            // Outputs "Looking forward to the Weekend."<br
+          /></code>
+        </p>
+        <button onclick="copyCode()">Kód Másolása</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C# Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="container">
+      <div id="sidebar">
+        <h2>C# oktatóanyag</h2>
+        <ul>
+          <li><a href="Untitled-1.html">C# HOME</a></li>
+          <li><a href="Untitled-2.html">C# Intro</a></li>
+          <li><a href="Untitled-3.html">C# Kezdje el</a></li>
+          <li><a href="Untitled-4.html">C# szintaxis</a></li>
+          <li><a href="Untitled-5.html">C# kimenet</a></li>
+          <li><a href="Untitled-6.html">C# megjegyzések</a></li>
+          <li><a href="Untitled-7.html">C# változók</a></li>
+          <li><a href="Untitled-8.html">C# adattípusok</a></li>
+          <li><a href="Untitled-9.html">C# típusú öntés</a></li>
+          <li><a href="Untitled-10.html">C# felhasználói bevitel</a></li>
+          <li><a href="Untitled-11.html">C# operátorok</a></li>
+          <li><a href="Untitled-12.html">C# matematika</a></li>
+          <li><a href="Untitled-13.html">C# karakterláncok</a></li>
+          <li><a href="Untitled-14.html">C# Booleans</a></li>
+          <li><a href="Untitled-15.html">C# Ha...Egyébként</a></li>
+          <li><a href="Untitled-16.html">C# kapcsoló</a></li>
+          <li><a href="Untitled-17.html">C# While Loop</a></li>
+          <li><a href="Untitled-18.html">C# For Loop</a></li>
+          <li><a href="Untitled-19.html">C# Szünet/Folytatás</a></li>
+          <li><a href="Untitled-20.html">C# tömbök</a></li>
+          <li><a href="Untitled-21.html">C# módszerek</a></li>
+          <li><a href="Untitled-22.html">C# módszerek</a></li>
+          <li><a href="Untitled-23.html">C# módszer paraméterei</a></li>
+          <li><a href="Untitled-24.html">C# módszer túlterhelés</a></li>
+          <li><a href="Untitled-25.html">C# osztályok</a></li>
+          <li><a href="Untitled-26.html">C# OOP</a></li>
+          <li><a href="Untitled-27.html">C# osztályok/objektumok</a></li>
+          <li><a href="Untitled-28.html">C# osztály tagjai</a></li>
+          <li><a href="Untitled-29.html">C# konstruktorok</a></li>
+          <li><a href="Untitled-100.html">Feladatok</a></li>
+          <li><a href="anyag.html">Videó sorozat</a></li>
+        </ul>
+      </div>
+
+      <div id="content">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <h1>Kedves Látogató!</h1>
+        <h1>FIGYELEM AZ OLDALON TALÁLHATÓ KÓDOKAT KETTŐ FÉLEKÉPPEN LEHET FELHASZNÁLNI, FIGYELJ ODA ÉS IGY MEGFOGOD TANULNI!</h1>
+        <h1>EGY KIS SEGÍTSÉG A TANULÁSHOZ HASZNÁLD EZT A LINKET A TANULÁSHOZ HA VALAMI NEM VILÁGOS EZ VÁLASZT FOG RÁ ADNI!</h1>
+        <a href="https://chat.openai.com/auth/login"><h1 style="color: red">https://chat.openai.com/auth/login</h1></a>
+
+        <p>
+          Üdvözlünk a C# nyelv világában! Nagyon örülünk, hogy ellátogattál hozzánk, és lehetőséget adsz nekünk arra, hogy segítsünk neked a kezdő lépések megtételében
+          ebben a kivételes programozási nyelvben. Itt, weboldalunkon, elköteleztük magunkat abban, hogy könnyen érthető és szórakoztató módon segítsünk neked felfedezni
+          a C# nyelv rejtelmeit. Legyen szó az alapokról vagy akár a haladóbb témákról, itt mindenkit szeretettel várunk, aki szeretné fejleszteni programozási
+          képességeit.
+        </p>
+        <p>
+          Ne habozz körbenézni, böngészni az elérhető tartalmak között, és ha bármilyen kérdésed vagy javaslatod van, ne habozz kapcsolatba lépni velünk. Célunk az, hogy
+          támogassunk téged a C# világában való sikeres navigálásban, és hogy szorosabbá tegyük a kapcsolatot a programozás és a kreatív gondolkodás között.
+        </p>
+        <p>Köszönjük, hogy minket választottál, és reméljük, hogy itt megtalálod mindazt, amire szükséged van a C# világában való boldog és eredményes utazásodhoz!</p>
+        <p>
+          Üdvözlettel,<br />
+          Prog Csapata
+        </p>
+
+        <p id="codeParagraph">
+          <code
+            >using System;<br /><br />
+
+            namespace HelloWorld<br />
+            {<br />
+            class Program<br />
+            {<br />
+            static void Main(string[] args)<br />
+            {<br />
+            Console.WriteLine("Hello World!"); <br />
+            }<br />
+            }<br />
+            }<br
+          /></code>
+        </p>
+        <button onclick="copyCode()">Kód Másolása</button><br /><br />
+        <div id="console">
+          <h1>Végeredmény</h1>
+          Microsoft Windows [Version 10.0.19043.1165] (c) Microsoft Corporation. All rights reserved. C:\Users\Username\Documents>dotnet run Hello World!
+          C:\Users\Username\Documents><br /><br />
+          <p>Egy jó tanács ezt a forrás kódot és a végeredményt nagyon jó tanulmányozza át mielőtt tovább menne a kövi oldalra!!!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
